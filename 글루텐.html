@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>세이프(안전 대체식품 공유 페이지)</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+body {
+     background-color: #F5F5DC;
+  margin: 0;
+}
+.header {
+    background-color: #32503F; 
+    padding: 20px;
+    text-align: center;
+    color: gray;
+}
+.topnav {
+    text-decoration: none;
+    overflow: hidden;
+    background-color: #768B5E;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.column {
+    float: left;
+    padding: 10px;
+}
+.column.side {
+   text-align: center;
+    width: 25%;
+
+}
+.column.middle {
+   text-align: center;
+    width: 50%;
+
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+@media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+        width: 100%;
+    }
+}
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
+
+table {border: green; border-collapse: collapse;}
+th{background: darkgray; color: black;}
+
+input[type=text] {color: green;}
+input[type=password] {color: green;}
+input:hover {background-color: aliceblue;}
+input[type=text]:focus, input[type=password]:focus {font-size: 100%;}
+
+.p1 { color: beige; }
+.sha{text-shadow: 2px 2px gray;}
+.게시판제목{text-align: left;}
+.writer{text-align: right; font-weight: 100;}
+</style>
+</head>
+
+
+<body>
+ 
+<div class="header">
+  <h1><a href="2018111133조수빈.html" style="text-decoration: none;"><p class="p1" style="font-style: italic;">세이프</p></a></h1>
+  <p style="font-weight: bold;">식품 알레르기 질환 보유 소비자를 위한 대체식품 안내 페이지</p>
+</div>
+ 
+<div class="topnav">
+  <a href="2018111133조수빈.html">Home</a>
+  <a href="식품알레르기.html">식품 알레르기</a>
+  <a href="알레르기별 대체식품.html">알레르기별 대체 식품</a>
+  <a href="공유게시판.html">공유게시판</a>
+</div>
+ 
+<div class="row">
+  <div class="column side">
+    <fieldset>
+    <legend><h2 class="sha">식품 안전 기관</h2></legend>
+    <a href="https://www.mfds.go.kr" target="_blank"><img src="https://www.mfds.go.kr/images/inc/logo.jpg" width="150" height="50" alt="no"></a>
+    <br><br>
+    <a href="https://www.foodsafetykorea.go.kr" target="_blank"><img src="https://www.foodsafetykorea.go.kr/images/common/logo.png" width="150" height="30" alt="no"></a><br><br>
+    <a href="https://www.safetyfood.or.kr/" target="_blank"><img src="https://cdn.imweb.me/thumbnail/20170813/598f91deefb32.png" width="150" height="50" alt="no"><br><br></a>
+    <a href="https://www.foodinfo.or.kr" target="_blank"><img src="https://www.foodinfo.or.kr/images/nMain/common/header_logo.png" width="150" height="30" alt="no"></a>
+  </div>
+  </fieldset>
+
+
+
+  <div class="column middle">
+    <fieldset>
+        <legend>
+            공유 게시판
+        </legend>
+        <h3 class="게시판제목">글루텐프리 빵 추천합니다.</h3>
+        <h5 class="writer">작성일: 2021.04.12<br>글쓴이: 충무로</p>
+        <h5 style="text-align: left;">조회수: 423 <br>좋아요: 82</h5>
+        <hr>
+        <h5>동국대학교 졸업생 분께서 '망넛이네'라는 제빵 브랜드로 창업을 하셨습니다. 밀가루와 유제품을 소화하지 못하는
+        소비자를 위한 밀가루, 우유, 버터, 계란 등이 함유되지 않은 글루텐 프리 100% 순 식물성 빵입니다. 일반 백색시유를 비롯한
+        우유 섭취 및 소화가 어려우신 유당불내증 환자분들께 좋은 시판빵 대체제가 아닐까 싶습니다.
+        식물성이라고해서 맛이 일반 빵보다 떨어질 줄 알았으나, 훨씬 쫀득한 식감과 담백하여 계속 손이 가는 맛입니다.  
+        한 번씩 생각나더라고요. 다들 한 번 드셔보세요~ <br>
+        <img src="https://mangnut2.com/web/product/big/202105/658e785b5e2698df676f030e20131f31.png">
+        <img src="https://mangnut2.com/web/upload/NNEditor/20210308/EAB080EBA5B4EAB8B0.gif"> </h5>
+         
+            <p><div style="display: block;">댓글달기: <textarea cols="30" rows="10">작성해주세요.</textarea>
+            <a href="javascript:alert('전송되었습니다.')"><button>입력</button></a></div></p>
+            
+
+    </fieldset>
+
+ 
+  </div>
+  
+    
+
+
+</div>
+ 
+<div class="footer" style="color: gray;">
+  <p style="text-align: left;">2021년 1학기 웹프로그래밍- 나만의 홈페이지 만들기</p>
+  <script>
+     var now = new Date();
+     document.write("GMT현재 시간 : "+now.toUTCString()+"+09:00(대한민국)"+"<br><hr>");
+
+  </script>
+
+</div>
+  
+</body>
+</html>

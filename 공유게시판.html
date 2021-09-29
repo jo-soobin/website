@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>세이프(안전 대체식품 공유 페이지)</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+body {
+     background-color: #F5F5DC;
+  margin: 0;
+}
+.header {
+    background-color: #32503F; 
+    padding: 20px;
+    text-align: center;
+    color: gray;
+}
+.topnav {
+    text-decoration: none;
+    overflow: hidden;
+    background-color: #768B5E;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.column {
+    float: left;
+    padding: 10px;
+}
+.column.side {
+   text-align: center;
+    width: 25%;
+
+}
+.column.middle {
+   text-align: center;
+    width: 50%;
+
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+@media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+        width: 100%;
+    }
+}
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
+
+table {border: green; border-collapse: collapse;}
+th{background: darkgray; color: black;}
+
+input[type=text] {color: green;}
+input[type=password] {color: green;}
+input:hover {background-color: aliceblue;}
+input[type=text]:focus, input[type=password]:focus {font-size: 100%;}
+
+.p1 { color: beige; }
+.sha{text-shadow: 2px 2px gray;}
+tr:nth-child(even){
+    background: linen;
+}
+td{
+    height: 20px;
+    width: 150px;
+
+}
+@keyframes textColorAnimation{
+  0%{color: skyblue;}
+  50%{color: coral;}
+  100%{color: lightgray;}
+}
+  h2{
+    animation-name: textColorAnimation;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+  }
+</style>
+</head>
+
+
+<body>
+ 
+<div class="header">
+  <h1><a href="2018111133조수빈.html" style="text-decoration: none;"><p class="p1" style="font-style: italic;">세이프</p></a></h1>
+  <p style="font-weight: bold;">식품 알레르기 질환 보유 소비자를 위한 대체식품 안내 페이지</p>
+</div>
+ 
+<div class="topnav">
+  <a href="2018111133조수빈.html">Home</a>
+  <a href="식품알레르기.html">식품 알레르기</a>
+  <a href="알레르기별 대체식품.html">알레르기별 대체 식품</a>
+  <a href="공유게시판.html">공유게시판</a>
+</div>
+ 
+<div class="row">
+  <div class="column side">
+    <fieldset>
+    <legend><h2 class="sha">식품 안전 기관</h2></legend>
+    <a href="https://www.mfds.go.kr" target="_blank"><img src="https://www.mfds.go.kr/images/inc/logo.jpg" width="150" height="50" alt="no"></a>
+    <br><br>
+    <a href="https://www.foodsafetykorea.go.kr" target="_blank"><img src="https://www.foodsafetykorea.go.kr/images/common/logo.png" width="150" height="30" alt="no"></a><br><br>
+    <a href="https://www.safetyfood.or.kr/" target="_blank"><img src="https://cdn.imweb.me/thumbnail/20170813/598f91deefb32.png" width="150" height="50" alt="no"><br><br></a>
+    <a href="https://www.foodinfo.or.kr" target="_blank"><img src="https://www.foodinfo.or.kr/images/nMain/common/header_logo.png" width="150" height="30" alt="no"></a>
+  </div>
+  </fieldset>
+
+  <div class="column middle">
+    
+    <table border="1" align="center">
+            <tr>
+                <th colspan="2">제목</th>
+                <th>작성자</th>
+                <th>작성일</th>
+                <th>조회</th>
+                <th>좋아요</th>
+            </tr>      
+            <tr>
+                <td>공지</td>
+                <td><a href="javascript:alert('로그인해주세요.')">게시판 이용 안내</a></td>
+                <td>관리자</td>
+                <td>2021.01.20.</td>
+                <td>123</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>공지</td>
+                <td><a href="javascript:alert('삭제된 게시물입니다.')">가입 승인 중단 안내</a></td>
+                <td>관리자</td>
+                <td>2020.12.01.</td>
+                <td>1092</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td><a href="글루텐.html">글루텐 프리 빵 추천합니다.</a></td>
+                <td>충무로</td>
+                <td>2021.04.12.</td>
+                <td>423</td>
+                <td>82</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td><a href="javascript:alert('권한이 없습니다.')">안녕하세요~!</a></td>
+                <td>남산코끼리</td>
+                <td>2021.03.06.</td>
+                <td>60</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td><a href="javascript:alert('규칙위반 글입니다.')">환절기 유의하세요.</a></td>
+                <td>붓쳐</td>
+                <td>2020.06.02</td>
+                <td>40</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td><a href="javascript:alert('권한이 없습니다.')">비밀글 입니다.</a></td>
+                <td>열활^^</td>
+                <td>2020.04.01.</td>
+                <td>2</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td><a href="javascript:alert('권한이 없습니다.')">비밀글 입니다.</a></td>
+                <td>샘성</td>
+                <td>2020.02.16.</td>
+                <td>4</td>
+                <td>0</td>
+            </tr>
+
+
+            <tr>
+                <td colspan="6" align="right"><a href="javascript:alert('권한이 없습니다.')"><button>글쓰기</button></a></td>
+               
+            </tr>
+
+
+
+            <tr>
+                <td colspan="6"><center>
+                <a href="공유게시판.html">1</a> 
+                
+
+                </center></td>
+            </tr>
+        
+
+        </table> 
+  </div>
+  
+    <div class="column side">
+    
+    <form name="forrm" method="getit">
+      <fieldset>
+      <legend>Log In</legend>
+    사용자ID: <input type="text" size="15" placeholder="webProgramming"><br>
+    비밀번호: <input type="password" size="15" placeholder="*****"> <br>
+    
+    </form></fieldset>
+     <a href="javascript:alert('회원이 아닙니다.')"><button>LogIn</button></a>
+    <a href="javascript:alert('가입 기간이 아닙니다.')"><button>회원가입</button></a>
+
+    </div>
+</div>
+ 
+<div class="footer" style="color: gray;">
+  <p style="text-align: left;">2021년 1학기 웹프로그래밍- 나만의 홈페이지 만들기</p>
+  <script>
+     var now = new Date();
+     document.write("GMT현재 시간 : "+now.toUTCString()+"+09:00(대한민국)"+"<br><hr>");
+
+  </script>
+
+</div>
+  
+</body>
+</html>
